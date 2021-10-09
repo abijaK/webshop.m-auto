@@ -1,4 +1,4 @@
-<div class="card bg-danger">
+<div class="card bg-secondary">
     <div class="card-header">
         <h5 class="text-white"><span class="px-2 fa fa-shopping-cart"></span>Cart</h5>
     </div>
@@ -6,7 +6,7 @@
         <ul class="list-group list">
             <li class="list-group-item ifemptytable d-none">
                 <span class="fa fa-warning px-2"></span>
-                <b>Aucune information pour l'instant !</b>
+                <b>No information !</b>
             </li>
         </ul>
     </div>

@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/vendor/jq.1.js"></script>
     <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>
     <title>M Auto</title>
@@ -23,7 +22,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-silver">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="?page=home"><h5>Acceuil</h5> <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="?page=home"><h5>HOME</h5> <span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -57,6 +56,21 @@
         <!-- <div class="col-12"> -->
             <?php include("./pages/$page") ?>
         <!-- </div> -->
+    </div>
+
+    <div class="container-fluid mt-3">
+        <!-- <img src="assets/pub/" alt="Publication"> -->
+        <video controls width="310" autoplay="true" loop="true">
+
+            <source src="assets/imgs/pub/color-steaming.MP4"
+                type="video/webm"><hr>
+
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <!-- <object width="425" height="344" data="assets/imgs/pub/multicolor-car.MP4" loop="true" autoplay="true"></object> -->
+        <!-- <iframe width="560" height="315" src="assets/imgs/pub/speed-rush.MP4"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen>video animee</iframe> -->
     </div>
 
     <!-- Optional JavaScript -->

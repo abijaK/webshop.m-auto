@@ -1,4 +1,4 @@
-<div class="card bg-danger">
+<div class="card bg-secondary">
     <div class="card-header">
         <h5 class="text-white">Detail > <span class="item-name text-primary"></span></h5>
     </div>
@@ -10,7 +10,7 @@
             <span class="description"></span>
             <button class="btn btn-primary w-100 mt-4 add-to-cart">
                 <span class="fa fa-shopping-cart px-2"></span>
-                <b>Ajouter au panier</b>
+                <b>Add to Cart</b>
             </button>
         </div>
     </div>
