@@ -6,26 +6,26 @@
 <div class="w-100 justify-content-center d-flex bg-info- px-0 mt-5">
     <form class="col-lg-5 connexion-form px-0" method="POST">
         <div class="col-lg-12 px-0 mb-2">
-            <h4 class="h4">M - Auto | Login</h4>
-            <p>Connectez-vous pour puvoir continuer avec vos achats</p>
+            <h4 class="h4">M - Auto Webshop | Login</h4>
+            <p>Connect then you will purchase</p>
         </div>
         <div class="form-group">
-            <label for="phone">Adresse email</label>
+            <label for="phone">Mail adress</label>
             <input type="text" name="telephone" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Enter phone number ex: +243 90...." required>
             <small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
         </div>
         <div class="form-group">
-            <label for="pwd">Mot de passe</label>
+            <label for="pwd">Password</label>
             <input type="password" name="password" class="form-control" id="pwd" placeholder="Password" required>
         </div>
         <div class="form-check my-2 output-message">
         </div>
         <div class="form-check my-2">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+            <label class="form-check-label" for="exampleCheck1">Remember me !</label>
         </div>
         <button type="submit" class="btn btn-primary w-100">
-            <b>Connexion</b>
+            <b>Connection</b>
         </button>
     </form>
 </div>
