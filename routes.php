@@ -1,4 +1,6 @@
 <?php 
+    
+    
     // session_start();
     // i will check my connexion session here
     $page = null;

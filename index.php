@@ -17,12 +17,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>
-    <title>M Auto</title>
+    <title>M-Auto Webshop</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-warning bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,12 +33,12 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="?page=home"><h5>HOME</h5> <span class="sr-only">(current)</span></a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Disabled</a>
-                    </li> -->
+                    </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 d-flex justify-content-between">
                     <a href="?page=cart" class="mr-2">
@@ -64,13 +64,10 @@
 
             <source src="assets/imgs/pub/color-steaming.MP4"
                 type="video/webm"><hr>
-
             Sorry, your browser doesn't support embedded videos.
         </video>
         <!-- <object width="425" height="344" data="assets/imgs/pub/multicolor-car.MP4" loop="true" autoplay="true"></object> -->
-        <!-- <iframe width="560" height="315" src="assets/imgs/pub/speed-rush.MP4"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-            picture-in-picture" allowfullscreen>video animee</iframe> -->
+        
     </div>
 
     <!-- Optional JavaScript -->
@@ -78,7 +75,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- <script src="assets/vendor/axios.js" type="JavaScript"></script> -->
+    <script src="assets/vendor/axios.js" type="JavaScript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
